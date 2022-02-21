@@ -6,7 +6,7 @@ The distributed database contains the tokens (e.g., cryptocurrency or NFTs) and 
 
 The user interface through which end users can conveniently access these tokens, files and carry out transactions (e.g., buy or sell tokens, cryptocurrency or NFTs) is written in a front end language such as React. There are JavaScript libraries such as Web3.js which act as a glue between Smart Contracts and front end language.
 
-When we launch our front-end webapp, it would have the logic to prommpt you to authenticate to your etherum account through an ethereum wallet (e.g., MetaMask) which we would have installed as a browser extension.
+When we launch our front-end webapp, it would have the logic to prommpt you to authenticate to your ethereum account through an ethereum wallet (e.g., MetaMask) which we would have installed as a browser extension.
 
 Once we have these pieces wired together only monitoring remains to be done. For monitoring transactions in the local blockchain we can install either ganache GUI (never worked for me) or another nifty tool such as explorer (https://github.com/etherparty/explorer). Then when we do our transactions in the ganache block chain it shows up.
 
@@ -51,8 +51,8 @@ To deploy this dApp on a public blockchain two things  need to be done.
 * deploy the UI of the dApp on a host (e.g., Heroku)
 * deploy the smart contracts on Ethereum. Here we have several options as follows:
     * deploy on ethereum mainnet - this is very expensive and requires real dollars :) as I understand around a few hundred
-    * deploy on one of the  etherum testnets such as ropsten
-    * deploy on a layer to blockchain network like Polygon which works as a secondary scaling solution on top of ethereum. Additionally Polygon uses a different logic called 'proof of stake' instead of 'proof of work' that would be used if directly deploying on etherum. Using Proof of stake to resolve transactions requires less compute power and so is said to be climate friendly.
+    * deploy on one of the  ethereum testnets such as ropsten
+    * deploy on a layer to blockchain network like Polygon which works as a secondary scaling solution on top of ethereum. Additionally Polygon uses a different logic called 'proof of stake' instead of 'proof of work' that would be used if directly deploying on ethereum. Using Proof of stake to resolve transactions requires less compute power and so is said to be climate friendly.
     * deploy on one of the blockchain node providers like Infura, Alchemy or Moralis. This last option is the easiest lowest cost (free) way of getting on etherium network. All these node providers also have libraries to make coding easier - e.g., I found it easier to use Alechemy Web3 library than directly coding web3.js to connect to Solidity (Ethereum language which is used to write smart contracts)
 
 To deploy the contracts on public blockchain network we need to specify the following variables (if hosting locally then we can use .env file; if hosting on a server such as Heroku then the config variables feature should be used to prevent exposing values) .
