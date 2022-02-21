@@ -1,6 +1,8 @@
 This repo has some sample code to explore a working dApp.
 
-A dApp (aka decentralized app) uses a distributed database (i.e., blockchain), a distributed file system (e.g., IPFS) and a front end server for UI (e.g., Heroku).
+Simply stated, a dApp (aka decentralized app) is an app which delivers the end to end user experience in any blockchain based technology (either cryptocurrency or NFTs).
+
+A dApp  uses a distributed database (i.e., blockchain), a distributed file system (e.g., IPFS) and a front end server for UI (e.g., Heroku).
 
 The distributed database contains the tokens (e.g., cryptocurrency or NFTs) and the logic (Smart Contracts). The media file (e.g., image corresponding to a NFT) is stored in a file system which is also decentralized (e.g., Interplanetary File System).  The Smart Contracts are typically written in a language such as Solidity (if using Ethereum) or Cadence (if using another blockchain called Flow).
 
