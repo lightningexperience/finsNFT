@@ -1,4 +1,4 @@
-This repo has  a working web3 dApp.
+This is a working web3 dApp.
 
 What is web3? web3 has become the umbrella term denoting the technologies centered around blockchain and the corresponding ideas such as decentralization, the history of transactions which can not be wiped away (i.e., immutability) and the transparency arising out of the fact that anyone can view the provenance of the tokens (i.e., past history of related transactions) in a public distributed database (i.e., public blockchain).
 
