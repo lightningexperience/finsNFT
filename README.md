@@ -6,17 +6,17 @@ The distributed database contains the tokens (e.g., cryptocurrency or NFTs) and 
 
 The user interface through which end users can conveniently access these tokens, files and carry out transactions (e.g., buy or sell tokens, cryptocurrency or NFTs) is written in a front end language such as React. There are JavaScript libraries such as Web3.js which act as a glue between Smart Contracts and front end language.
 
-When we launch our front-end webapp, it would have the logic to prommpt you to authenticate to your ethereum account through an ethereum wallet (e.g., MetaMask) which we would have installed as a browser extension.
+When we launch our front-end webapp, it would have the logic to prompt us to authenticate to our ethereum account through an ethereum wallet (e.g., MetaMask) which we would have installed as a browser extension.
 
 Once we have these pieces wired together only monitoring remains to be done. For monitoring transactions in the local blockchain we can install either ganache GUI (never worked for me) or another nifty tool such as explorer (https://github.com/etherparty/explorer). Then when we do our transactions in the ganache block chain it shows up.
 
-In the case of public blockchains there are multiple monitoring options including specialized dApps to let you view NFTs transaction history.
+In the case of public blockchains there are multiple monitoring options including specialized dApps to let us view NFTs transaction history.
 
 
 ## What this dApp does
 There are two main operations that happen in this dApp (decentralized app) powered by two contracts:
 * Mint (i.e.generate) an NFT
-* Allows you to offer your newly minted NFT
+* Allows us to offer our newly minted NFT
 
 ## How to deploy this dApp
 
@@ -36,12 +36,12 @@ The steps I followed:
 
 * git  clone - clone this repo locally
 * cd to the repo directory and do 'npm install' - this  downloads all the necessary dependencies
-* compile the smart contracts by running the following command in your terminal: truffle compile
+* compile the smart contracts by running the following command in our terminal: truffle compile
 * run ganache
 * Ensure that truffle-config.js has the correct ganache port
-* run tests that validate your solution can be executed truffle test
-* deploy the contracts on your Ganache local blockchain by running the following command: truffle migrate
-* assuming that we have MetaMask installed as  a browser extension, click on metamask icon in the brower toolbar and you will see that it automatically picks up the localhost:8545 wich is the ganache blockchain network. If it doesn't then you need to configure it explicitly in the MetaMask network configuration panel/
+* run tests that validate our solution can be executed truffle test
+* deploy the contracts on our Ganache local blockchain by running the following command: truffle migrate
+* assuming that we have MetaMask installed as  a browser extension, click on metamask icon in the brower toolbar and we will see that it automatically picks up the localhost:8545 wich is the ganache blockchain network. If it doesn't then we need to configure it explicitly in the MetaMask network configuration panel/
 * now in the git repo directory open the UI by typing: npm start
 
 It will spin up a browser tab at 127.0.0.1:3000 and bring up the UI for the dApp.
@@ -57,10 +57,10 @@ To deploy this dApp on a public blockchain two things  need to be done.
 
 To deploy the contracts on public blockchain network we need to specify the following variables (if hosting locally then we can use .env file; if hosting on a server such as Heroku then the config variables feature should be used to prevent exposing values) .
 
-* PRIVATE_KEYS --> Private Key of the account you are using to deploy (typically the first one in the list of Ganache)
-* INFURA_API_KEY --> API key from the node provider (e.g., Infura when we register)
+* PRIVATE_KEYS --> Private Key of the account we are using to deploy (typically the first one in the list of Ganache)
+* INFURA_API_KEY  or Alchemy Key --> API key from the node provider (e.g., Infura or Alchemy or Moralis when we register)
 
-After this we need to get some free ether to deploy on testnet. This is needed even if you use alchemy or infura or moralis. We can request free ether by going to a faucet - an Ethereum Faucet is where we are paid a minuscule amount of ETH with basic ad viewing and clicking. This gets deposited in your MetaMask account and then with this account we can connect to an ethereum testnet either directly or via a node provider that we have mentioned above.
+After this we need to get some free ether to deploy on testnet. This is needed even if we use alchemy or infura or moralis. We can request free ether by going to a faucet - an Ethereum Faucet is where we are paid a minuscule amount of ETH with basic ad viewing and clicking. This gets deposited in our MetaMask account and then with this account we can connect to an ethereum testnet either directly or via a node provider that we have mentioned above.
 
 Then we need to run the truffle migrate to migrate to the testnet e.g. ropsten: truffle migrate --network ropsten
 
