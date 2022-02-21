@@ -27,11 +27,11 @@ The transactions e.g., mint, buy etc., require the use of a cryptocurrency - the
 
 ### Prerequisites
 * Install node
-* Install Ganache cli - local blockchain environment for development (the ganache GUI never worked for me unfortunately)
+* Install Ganache cli - local blockchain environment for development (the ganache GUI never worked for me unfortunately so I am resigned to using the CLI)
 * Install MetaMask - blockchain wallet which installs as a plugin to firefox, chrome or ios.
 * Create an account in MetaMask and note the secret recovery phrase
 * Install Truffle - (npm install -g truffle)  - Truffle is a great framework for building dApps including compiling contracts and deploying Contracts.
-* Install an IDE - I personally use Atom as it is integrated with GitHub  - the official Ethereum IDE is Remix which has not proved to be very happy tool for me.
+* Install an IDE - I personally use Atom as it is integrated with GitHub  - the official Ethereum IDE is Remix (a browser based IDE) which has not proved to be a happy tool for me.
 
 
 ### Deploying locally
