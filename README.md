@@ -52,7 +52,7 @@ It will spin up a browser tab at 127.0.0.1:3000 and bring up the UI for the dApp
 To deploy this dApp on a public blockchain two things  need to be done.
 * deploy the UI of the dApp on a host (e.g., Heroku)
 * deploy the smart contracts on Ethereum. Here we have several options as follows:
-    * deploy on ethereum mainnet - this is very expensive and requires real dollars :) as I understand around a few hundred
+    * deploy on ethereum mainnet - expensive and time consuming
     * deploy on one of the  ethereum testnets such as ropsten
     * deploy on a layer to blockchain network like Polygon which works as a secondary scaling solution on top of ethereum. Additionally Polygon uses a different logic called 'proof of stake' instead of 'proof of work' that would be used if directly deploying on ethereum. Using Proof of stake to resolve transactions requires less compute power and so is said to be climate friendly.
     * deploy on one of the blockchain node providers like Infura, Alchemy or Moralis. This last option is the easiest lowest cost (free) way of getting on etherium network. All these node providers also have libraries to make coding easier - e.g., I found it easier to use Alechemy Web3 library than directly coding web3.js to connect to Solidity (Ethereum language which is used to write smart contracts)
