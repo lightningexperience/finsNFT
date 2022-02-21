@@ -1,6 +1,8 @@
-This repo has some sample code to explore a working dApp.
+This repo has some sample code to explore a working web3 dApp.
 
-Simply stated, a dApp (aka decentralized app) is an app which delivers the end to end user experience in any blockchain based technology (either cryptocurrency or NFTs).
+What is web3? web3 has become the umbrella term denoting the technologies centered around blockchain and the corresponding ideas such as decentralization, the history of transactions which can not be wiped away (i.e., immutability) and the transparency arising out of the fact that anyone can view the provenance of the tokens (i.e., past history of related transactions) in a public distributed database (i.e., public blockchain).
+
+What is a web3 dApp? Simply stated, a web3 dApp (aka decentralized app) is an app which delivers the end to end user experience in any blockchain based technology (either cryptocurrency or NFTs).
 
 A dApp  uses a distributed database (i.e., blockchain), a distributed file system (e.g., IPFS) and a front end server for UI (e.g., Heroku).
 
