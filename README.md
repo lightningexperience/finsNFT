@@ -21,7 +21,7 @@ There are two main operations that happen in this dApp (decentralized app) power
 * Allows us to offer our newly minted NFT
 * Allows another user to buy the NFT (this module is under construction) - if deployed publicly, another user would authenticate with his/her wallet (e.g., metamask) and would be able to complete the buy transaction.
 
-The transactions e.g., mint, buy etc., require the use of a cryptocurrency - the cryptocurrency that ethereum natively uses is called ETH - this is what is automatically available through MetaMask. When we purchase some ETH through your ethereum account and then that amount of ETH become available for us to do transactions in through MetaMask wallet. Optionally, a dApp (including this app) could be extended to directly accept other cryptocurrencies like Bitcoin or even fiat currency (i.e., dollars) for transactions. Obviously when using a local development blockchain like ganache, we don't need any real currency (neither crypto not fiat)- ganache itself generates some dummy accounts with some fixed amount of ETH when it starts up. All we need to do is import these accounts in MetaMask. 
+The transactions e.g., mint, buy etc., require the use of a cryptocurrency - the cryptocurrency that ethereum natively uses is called ETH - this is what is automatically available through MetaMask. When we purchase some ETH through your ethereum account and then that amount of ETH become available for us to do transactions in through MetaMask wallet. Optionally, a dApp (including this app) could be extended to directly accept other cryptocurrencies like Bitcoin or even fiat currency (i.e., dollars) for transactions. Obviously when using a local development blockchain like ganache, we don't need any real currency (neither crypto not fiat)- ganache itself generates some dummy accounts with some fixed amount of ETH when it starts up. All we need to do is import these accounts in MetaMask.
 
 ## How to deploy this dApp
 
@@ -37,7 +37,7 @@ The transactions e.g., mint, buy etc., require the use of a cryptocurrency - the
 ### Deploying locally
 The project contains untested code only for understanding blockchain and NFT related concepts. It has not been tested as a safe code either for local or for remote deployment.
 
-The steps I followed:
+The steps:
 
 * git  clone - clone this repo locally
 * cd to the repo directory and do 'npm install' - this  downloads all the necessary dependencies
